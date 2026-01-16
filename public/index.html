@@ -34,9 +34,9 @@
         .watch-face {
             position: relative;
             background: #050505;
-            padding: 3rem 4rem;
+            padding: 5rem 6rem;
             border: 4px solid #1a1a1a;
-            border-radius: 10px;
+            border-radius: 16px;
             box-shadow: 
                 inset 0 0 20px #000,
                 0 0 40px rgba(255,255,255,0.05);
@@ -49,18 +49,11 @@
 
         .time-display {
             position: relative;
-            font-size: 7rem;
+            font-size: clamp(4rem, 14vw, 12rem);
             letter-spacing: 0.05em;
-            color: var(--text-color);
-            text-shadow: 0 0 15px var(--glow-color);
+            color: #fff;
             z-index: 2;
             line-height: 1;
-        }
-
-        @media (min-width: 768px) {
-            .time-display {
-                font-size: 10rem;
-            }
         }
 
         .info-panel {
