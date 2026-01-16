@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+  command = ""
+
+[settings]
+  timezone = "Africa/Dar_es_Salaam"
